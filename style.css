@@ -1,0 +1,140 @@
+:root{
+    --darkTurquoise:#027385;
+    --lightTurquoise:#09a2ba;
+}
+
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial,'san-serif';
+    font-size:10px;
+   
+
+}
+
+.container{
+    display:flex;
+}
+
+.container .image{
+    width:34%;
+    height:100vh;
+}
+.login-container{
+    margin:0 auto;
+    padding-top:6rem;
+}
+
+.login-container form{
+    display:flex;
+    flex-direction:column;
+    font-size:0.8rem;
+    margin-top:2rem;
+}
+
+
+
+form .login-label{
+    margin-bottom:1rem;
+    display:flex;
+    justify-content:flex-end;
+}
+
+
+
+.text{
+    text-align:center;
+    letter-spacing:0.2rem;
+}
+
+.text h1{
+    font-size: 2.4rem;
+    font-weight:bold;
+    color:var(--darkTurquoise);
+    margin-bottom:0.5rem;
+}
+
+.text h3{
+    font-size:0.8rem;
+    font-weight:lighter;
+    text-transform:uppercase;
+    color:#a5b5bc;
+
+}
+
+.login-label{
+    font-weight:bold;
+    align-items: center;
+    color:var(--darkTurquoise);
+    
+}
+
+.login-label input{
+    margin-left:5rem ;
+    margin-right:5rem;
+    width:20rem;
+    height:2.3rem;
+    border:none;
+    border-radius:0.2rem;
+    background-color:rgba(165, 181, 188,0.2);
+    color:rgba(82, 92, 95, 0.938);
+    padding:0 3rem 0 0.8rem;
+    cursor:pointer;
+    
+}
+
+
+.login-label input:focus {
+    outline:none; 
+    border: 0.1rem solid  var(--darkTurquoise);
+    box-shadow: 5px 3px 15px -5px #424242;
+}
+
+ .icon-eye{
+    width:1.2rem;
+    position:absolute;
+    right:21%;
+    cursor:pointer;
+}
+
+input::placeholder{
+    color:rgba(131, 144, 148, 0.966);
+}
+.button-container{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top:1rem;
+}
+.button{
+    height:2.3rem;
+    width:7.5rem;
+    letter-spacing:0.1rem;
+    border:none;
+    border-radius:0.2rem;
+    cursor:pointer;
+    opacity:0.8;
+
+    color:lavender;
+    text-transform:uppercase;
+}
+.cancel{
+    margin-right:1rem;
+    background-color:var(--darkTurquoise);
+}
+
+.send{
+    background-color:var(--lightTurquoise);
+}
+
+.button:hover{
+    opacity:1;
+    box-shadow:1px 2px;
+}
+
+
