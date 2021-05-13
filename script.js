@@ -1,6 +1,6 @@
-const container=document.querySelector('.login-label');
+const container=document.querySelector('.login_label');
 const input=document.querySelector('#password');
-const iconEye=document.querySelector('.icon-eye');
+const iconEye=document.querySelector('.iconEye');
 const iconEyeSlash=document.querySelector('.eyeSlash');
 
 
