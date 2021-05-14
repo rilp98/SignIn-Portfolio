@@ -13,15 +13,15 @@
 body{
     font-family:Arial,'san-serif';
     font-size:10px;
-   
-
 }
 
 main{
     display:flex;
+    height:100vh;
+    width:100%;
 }
 
-main img{
+main .image{
     width:34%;
     height:100vh;
 }
@@ -36,16 +36,6 @@ main img{
     font-size:0.8rem;
     margin-top:2rem;
 }
-
-
-
-form .login_label{
-    margin-bottom:1rem;
-    display:flex;
-    justify-content:flex-end;
-}
-
-
 
 .login_text{
     text-align:center;
@@ -67,14 +57,21 @@ form .login_label{
 
 }
 
+form .login_label{
+    margin-bottom:1rem;
+    display:flex;
+    justify-content:flex-end;
+}
+
 .login_label{
     font-weight:bold;
     align-items: center;
-    color:var(--darkTurquoise);
-    
+    color:var(--darkTurquoise); 
+    position:relative;    
 }
 
 .login_label input{
+   
     margin-left:5rem ;
     margin-right:5rem;
     width:20rem;
@@ -82,7 +79,7 @@ form .login_label{
     border:none;
     border-radius:0.2rem;
     background-color:rgba(165, 181, 188,0.2);
-    color:rgba(82, 92, 95, 0.938);
+    color:#525c5fef;
     padding:0 3rem 0 0.8rem;
     cursor:pointer;
     
@@ -96,9 +93,9 @@ form .login_label{
 }
 
  .iconEye{
-    width:1.2rem;
+    width:16px;
     position:absolute;
-    right:20%;
+    right:110px;
     cursor:pointer;
 }
 
@@ -136,5 +133,4 @@ input::placeholder{
     opacity:1;
     box-shadow:1px 2px;
 }
-
 
