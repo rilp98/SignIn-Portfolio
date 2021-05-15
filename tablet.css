@@ -1,0 +1,19 @@
+@media screen and (max-width:768px){
+    main .image{
+        display:none;
+    }
+    .login_buttonContainer{
+        margin-left:40px;
+    }
+    .button{
+        width:150px;
+    }
+    .login_label input{
+        margin-left:2rem ;
+    } 
+
+    form .login_label{
+        margin-left:2rem;
+    }
+
+}
